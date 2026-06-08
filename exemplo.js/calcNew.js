@@ -1,6 +1,21 @@
-function meuNome(nome) {
-    console.log(nome)
+function soma(num1, num2){
+    console.log(num1 + num2);
 }
 
-meuNome("Juliana");
-meuNome("João Pedro");
+function subtracao(num1, num2){
+    console.log(num1 - num2);
+}
+
+function divisao(num1, num2){
+    console.log(num1 / num2);
+}
+
+function multiplicacao(num1, num2){
+    console.log(num1 * num2);
+}
+
+soma(2 , 2);
+subtracao(2 , 2);
+divisao(2 , 2);
+multiplicacao(2 , 2);
+
