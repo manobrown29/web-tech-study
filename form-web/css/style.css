@@ -81,3 +81,13 @@ header h1{
     color: white;
     transition: 0.5s;
 }
+
+ul li{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+p{
+    color: #000;
+}
