@@ -7,6 +7,7 @@ salvarBtn.addEventListener("click", function(event) {
 
     if(valor.trim() == ""){
         alert("Escreva algo")
+        return;
     }
 
     //Salvar no localStorage
@@ -15,4 +16,6 @@ salvarBtn.addEventListener("click", function(event) {
 
     //limpar campo após salvar
     campo.value = ""
+
+    carregarValoresSalvos()
 });
