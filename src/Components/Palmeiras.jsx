@@ -1,9 +1,7 @@
 import palmeiras from "../assets/palmeiras.jpg"
-import "./card.css"
+import "./css/card.css";
 
 const Palmeiras = (props)=> {
-    console.log(props)
-
     return(
         <div className="card">
             <img src={palmeiras} alt={props.caption || 'imagem'} className="img-card"/>

@@ -1,13 +1,9 @@
-const Banner = (props) => {
-    const titleStyle = {
-        margin: 0,
-        fontSize: '15px',
-        color: '#000'
-    }
+import "./css/banner.css";
 
+const Banner = (props) => {
     return (
-        <section>
-            <h1 className={titleStyle}>{props.children}</h1>
+        <section className="titulo">
+            <h1>{props.children}</h1>
         </section>
     )
 }
