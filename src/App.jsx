@@ -22,10 +22,11 @@ function App() {
 
       <Card />
 
-      <Palmeiras caption="Maior do Brasil" anoFundacao="doris" />
+      <Palmeiras caption="Maior do Brasil" anoFundacao="dori" />
 
    
       
+      <Palmeiras caption="Maior do mundo" anoFundacao="nemo" />
 
       <MaiorDoBrasil>
         <h1>Maior do brasil </h1>
