@@ -1,4 +1,4 @@
-const Banner = (props) => {
+const MaiorDoBrasil = (props) => {
     const titleStyle = {
         margin: 0,
         fontSize: '15px',
@@ -7,9 +7,9 @@ const Banner = (props) => {
 
     return (
         <section>
-            <h1 className={titleStyle}>{props.children}</h1>
+            <h1 style={titleStyle}>{props.children}</h1>
         </section>
     )
 }
 
-export default Banner;
+export default MaiorDoBrasil;
