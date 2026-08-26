@@ -1,5 +1,5 @@
-import imgCard from "../assets/img-card.jpg"
-import "./css/card.css";
+import imgCard from "../../assets/img-card.jpg"
+import "../css/card.css";
 
 const Card = () => {
     return (

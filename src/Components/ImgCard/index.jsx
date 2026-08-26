@@ -1,5 +1,5 @@
-import "./css/ImgCard.css";
-import imgCard from "../assets/img-card-2.jpg"
+import "../css/ImgCard.css";
+import imgCard from "../../assets/img-card-2.jpg"
 
 const Img = (props)=> {
     return(

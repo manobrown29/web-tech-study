@@ -1,10 +1,10 @@
 import Header from "./Components/Header"
 import Card from "./Components/Card"
-import Footer from "./Components/footer"
+import Footer from "./Components/Footer"
 import Banner from "./Components/Banner"
-import Img from "./Components/Img"
-import Palmeiras from "./Components/palmeiras"
-import MaiorDoBrasil from "./Components/MaiorDoBrasil"
+import Img from "./Components/ImgCard"
+import Palmeiras from "./Components/Palmeiras/Palmeiras"
+import MaiorDoBrasil from "./Components/Palmeiras/MaiorDoBrasil"
 
 import "../src/App.css"
 function App() {

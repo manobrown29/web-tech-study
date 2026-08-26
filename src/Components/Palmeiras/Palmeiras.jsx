@@ -1,5 +1,5 @@
-import palmeiras from "../assets/palmeiras.jpg"
-import "./css/card.css";
+import palmeiras from "../../assets/palmeiras.jpg"
+import "../css/card.css";
 
 const Palmeiras = (props)=> {
     return(
