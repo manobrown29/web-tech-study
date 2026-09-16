@@ -1,12 +1,18 @@
 import Header from "./components/Header"
-
+import Footer from "./components/Footer"
+import Router from "./Router"
 import "./global.css"
 
 function App() {
   return (
-    <>
-       <Header />
-    </>
+    <div className="app">
+      
+      <Header />
+
+      <Router/>
+
+      <Footer />
+    </div>
   )
 }
 

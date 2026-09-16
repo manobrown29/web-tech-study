@@ -1,0 +1,32 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.notfound-title {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.notfound-text {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.notfound-link {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: solid 1px #000;
+}
+
+.notfound-link:hover {
+  color: #666;
+  border-bottom: solid 1px #666;
+}
