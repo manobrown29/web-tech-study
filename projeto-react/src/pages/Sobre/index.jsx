@@ -8,7 +8,7 @@ export default function index() {
            O Lorem Ipsum é um site utilizado para gerar textos fictícios que ajudam no desenvolvimento e na apresentação de páginas da web. Ele é muito usado por designers e desenvolvedores para preencher espaços de conteúdo antes que o texto definitivo esteja pronto.
 
         </p>
-        <button><a href="https://www.lipsum.com/" target="blank">Saiba mais!</a></button>
+        <button className="delete"><a href="https://www.lipsum.com/" target="blank">Saiba mais!</a></button>
     </section>
   )
 }

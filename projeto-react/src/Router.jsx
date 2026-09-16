@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import FAQ from "./pages/FAQ"
 import Sobre from "./pages/Sobre"
 import NotFound from "./pages/NotFound"
+import Usuarios from "./pages/Usuarios"
 
 export default function Router() {
   return (
@@ -13,6 +14,7 @@ export default function Router() {
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/FAQ" element={<FAQ />} />
+            <Route path="/usuarios" element={<Usuarios />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     </BrowserRouter>

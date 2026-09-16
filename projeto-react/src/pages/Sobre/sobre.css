@@ -14,8 +14,8 @@
 }
 
 /* From Uiverse.io by cssbuttons-io */ 
-button {
-  --color: #000;
+.delete {
+  background-color: #000;
   font-family: inherit;
   display: inline-block;
   width: 8em;
@@ -34,19 +34,11 @@ button {
   color: var(--color);
 }
 
-button a{
+.delete a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
-button:hover {
-    background-color: #000;
-}
-
-button a:hover {
-  color: #fff;
-
-}
 
 
 
