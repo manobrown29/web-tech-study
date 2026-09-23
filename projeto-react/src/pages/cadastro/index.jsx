@@ -1,4 +1,7 @@
 import { useState } from "react"
+import { toast, ToastContainer } from "react-toastify";
+import "../../../node_modules/react-toastify/dist/ReactToastify.css"
+
 
 export default function index() {
     const [formData, setFormData] = useState({
@@ -19,6 +22,14 @@ export default function index() {
     const handleSubmit = (e) =>{
         e.preventDefault();
         
+        if(formData.nome == "" || formData.telefone == "" || formData.email == ""){
+        
+            toast.error("Todos os campos são obrigatórios!")
+            return false;
+        }
+
+
+        
         fetch("http://localhost:3000/usuarios", {
             method: "POST",
             headers: {
@@ -28,7 +39,7 @@ export default function index() {
         })
         .then((response) => response.json())
         .then((data) => {
-            console.log("Usuários cadastrado com sucesso:", data)
+            toast.success("Usuários cadastrado com sucesso!")
 
             setFormData({
                 nome: "",
@@ -73,6 +84,8 @@ export default function index() {
             </article>
 
             <button type="submit">Cadastrar</button>
+
+            <ToastContainer />
         </form>
     </main>
   )
