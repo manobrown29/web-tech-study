@@ -1,4 +1,5 @@
 .container-sobre{
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +12,14 @@
 
 .container-sobre p{
     margin-top: 10px;
+}
+
+.lorem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* From Uiverse.io by cssbuttons-io */ 
