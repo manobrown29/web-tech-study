@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { toast, ToastContainer } from "react-toastify";
 import "../../../node_modules/react-toastify/dist/ReactToastify.css"
-
+import "./cadastro.css"
 
 export default function index() {
     const [formData, setFormData] = useState({
